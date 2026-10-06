@@ -1,0 +1,25 @@
+# Entorno
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Datos: el crudo no se publica; lo procesado se regenera con el pipeline
+data/raw/
+data/processed/
+data/sample/
+
+# Artefactos generados
+models/
+reports/
+logs/
+
+# Enunciado de la prueba: no se publica
+ML Engineer Test.pdf
+
+# Material de estudio personal (no forma parte de la entrega)
+docs/guia/
+docs/guia_del_codigo.md
+docs/preparacion_entrevista.md
+Data analyis.ipynb
