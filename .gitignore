@@ -1,0 +1,16 @@
+# Entorno
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Datos: el crudo no se publica; lo procesado se regenera con el pipeline
+data/raw/
+data/processed/
+data/sample/
+
+# Artefactos generados
+models/
+reports/
+logs/
