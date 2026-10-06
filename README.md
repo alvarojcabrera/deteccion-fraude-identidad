@@ -32,7 +32,6 @@ directo) y cuesta **24,5 % menos** que no tener modelo.
 ```
 config.yaml                  Todas las decisiones: variables, exclusiones y su motivo, costos
 notebooks/01_eda.ipynb       Análisis exploratorio: pregunta → evidencia → conclusión
-notebooks/02_recorrido.ipynb Recorrido del código con un ejemplo pequeño, paso a paso
 src/
 ├── config.py                Lee config.yaml
 ├── data.py                  Carga, valida, limpia, excluye periodos sesgados y parte por cuenta
