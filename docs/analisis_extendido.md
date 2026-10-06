@@ -85,8 +85,10 @@ alimenta la decisión de aprobar, pedir una verificación adicional o rechazar.
 
 ## 3. Supuestos
 
-El detalle completo, con evidencia, impacto y qué cambia si cada supuesto es falso, está en
-[supuestos.md](supuestos.md). Los que más condicionan el diseño:
+Se definieron **15 supuestos**. El detalle completo, con evidencia, impacto y qué cambia si cada
+supuesto es falso, está en [supuestos.md](supuestos.md). Esta tabla muestra **los 8 que más
+condicionan el diseño**; los otros 7 (S2, S5, S7, S9, S11, S13 y S15) se tratan en las secciones
+donde aplican.
 
 | # | Supuesto | Tipo | Consecuencia en el diseño |
 |---|---|---|---|
@@ -332,7 +334,7 @@ obtuvo remuestreando **cuentas**, no filas, para respetar que la etiqueta es cas
 | B | 2.953 | 16,9 % | 0,497 | 0,800 |
 
 El cliente B, que es el 83 % de los datos, es más difícil por cómo ocurre su fraude, no por falta de
-señales (tiene `DISTRUST` en el 100 % de los procesos, frente al 68 % de A). En A el fraude se concentra
+señales (tiene `DISTRUST` en el 100 % de los procesos, frente al 68 % de A en entrenamiento y 66 % en test). En A el fraude se concentra
 en cuentas que reintentan: 6 % de fraude en el primer intento y 94 % cuando hay rechazos previos por
 señales de fraude, así que las variables de historial lo separan muy bien. En B el fraude llega en el
 primer intento (15 %) y los rechazos previos solo indican 42 % de fraude.
@@ -600,7 +602,7 @@ etiquetas recientes.
   en el tiempo ni medir la deriva real.
 - **Periodos con sesgo de selección.** Se excluyeron de la evaluación, pero no se puede descartar
   otro sesgo menos visible.
-- **Intervalos de confianza amplios.** Con 3.498 procesos de prueba, el PR-AUC está entre 0,45 y 0,66.
+- **Intervalos de confianza amplios.** Con 3.498 procesos de prueba, el PR-AUC está entre 0,43 y 0,64.
 
 **Del modelo y la decisión**
 - **Costos asumidos** (S6, S14). La política es tan buena como esos supuestos; por eso es configurable
