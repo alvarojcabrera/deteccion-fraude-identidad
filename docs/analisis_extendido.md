@@ -85,8 +85,10 @@ alimenta la decisión de aprobar, pedir una verificación adicional o rechazar.
 
 ## 3. Supuestos
 
-El detalle completo, con evidencia, impacto y qué cambia si cada supuesto es falso, está en
-[supuestos.md](supuestos.md). Los que más condicionan el diseño:
+Se definieron **15 supuestos**. El detalle completo, con evidencia, impacto y qué cambia si cada
+supuesto es falso, está en [supuestos.md](supuestos.md). Esta tabla muestra **los 8 que más
+condicionan el diseño**; los otros 7 (S2, S5, S7, S9, S11, S13 y S15) se tratan en las secciones
+donde aplican.
 
 | # | Supuesto | Tipo | Consecuencia en el diseño |
 |---|---|---|---|
