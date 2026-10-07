@@ -602,7 +602,7 @@ etiquetas recientes.
   en el tiempo ni medir la deriva real.
 - **Periodos con sesgo de selección.** Se excluyeron de la evaluación, pero no se puede descartar
   otro sesgo menos visible.
-- **Intervalos de confianza amplios.** Con 3.498 procesos de prueba, el PR-AUC está entre 0,45 y 0,66.
+- **Intervalos de confianza amplios.** Con 3.498 procesos de prueba, el PR-AUC está entre 0,43 y 0,64.
 
 **Del modelo y la decisión**
 - **Costos asumidos** (S6, S14). La política es tan buena como esos supuestos; por eso es configurable
