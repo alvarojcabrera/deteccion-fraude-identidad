@@ -332,7 +332,7 @@ obtuvo remuestreando **cuentas**, no filas, para respetar que la etiqueta es cas
 | B | 2.953 | 16,9 % | 0,497 | 0,800 |
 
 El cliente B, que es el 83 % de los datos, es más difícil por cómo ocurre su fraude, no por falta de
-señales (tiene `DISTRUST` en el 100 % de los procesos, frente al 68 % de A). En A el fraude se concentra
+señales (tiene `DISTRUST` en el 100 % de los procesos, frente al 68 % de A en entrenamiento y 66 % en test). En A el fraude se concentra
 en cuentas que reintentan: 6 % de fraude en el primer intento y 94 % cuando hay rechazos previos por
 señales de fraude, así que las variables de historial lo separan muy bien. En B el fraude llega en el
 primer intento (15 %) y los rechazos previos solo indican 42 % de fraude.
